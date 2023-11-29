@@ -23,7 +23,10 @@ Dengan mail utama ku :
   - koneksi   = https://ujiproject1.000webhostapp.com/apidb/koneksi.php
   - login     = https://ujiproject1.000webhostapp.com/apidb/api_login.php
   - register  = https://ujiproject1.000webhostapp.com/apidb/api_register.php
- 
+
+domain uji coba
+https://vioscakedb.000webhostapp.com
+saat ini hanya berisi API yang dipakai sekarang dengan data basenya
 Dengan mail vioscake1@gmail.com
 - login melalui
   - https://files.000webhost.com/

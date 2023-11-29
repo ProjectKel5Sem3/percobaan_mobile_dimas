@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/lightbrown"
+    android:orientation="vertical"
+    tools:context=".register2">
+
+    <LinearLayout
+        android:id="@+id/linearregister1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="30sp"
+            android:paddingTop="220dp"
+            android:fontFamily="@font/poppinssemibold"/>
+
+        <ImageView
+            android:id="@+id/imglogo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/logo1" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardviewregister1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearregister1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@color/white"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Registrasi Akun"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/lightbrown"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/userregistrasi1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="2dp"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/personicon"
+                android:hint="Username"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:textColorHint="@color/lightbrown"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/lightbrown"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/emailregistrasi1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="2dp"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/personicon"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:textColorHint="@color/lightbrown"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/lightbrown"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/password2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext"
+                    android:layout_marginTop="5dp"
+                    android:inputType="textPassword"
+                    android:hint="Password"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/lightbrown"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@drawable/lockicon"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/toggleeyeregister1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eye_closed"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:flow_verticalBias="0.5"
+                    android:layout_marginEnd="10dp"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/lightbrown"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/passwordconfirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edittext"
+                    android:layout_marginTop="5dp"
+                    android:inputType="textPassword"
+                    android:hint="Confirm Password"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/lightbrown"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@drawable/lockicon"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/toggleeyeregister2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/eye_closed"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:flow_verticalBias="0.5"
+                    android:layout_marginEnd="10dp"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/buttonregister1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardviewregister1"
+        android:layout_alignRight="@id/cardviewregister1"
+        app:cardCornerRadius="5dp"
+        android:layout_gravity="right"
+        android:backgroundTint="@color/semidarkbrown">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppinssemibold"/>
+    </androidx.cardview.widget.CardView>
+
+<!--    <TextView-->
+<!--        android:id="@+id/orsignupwith"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/buttonregister1"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:drawableLeft="@drawable/strokesignup"-->
+<!--        android:gravity="center" />-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/btnGF"-->
+<!--        android:layout_below="@id/buttonregister1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:orientation="horizontal">-->
+<!--        <ImageView-->
+<!--            android:id="@+id/imgbuttongoogle1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="98dp"-->
+<!--            android:src="@drawable/googlelogo"/>-->
+<!--        <ImageView-->
+<!--            android:id="@+id/imgbuttonfacebook1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="32dp"-->
+<!--            android:src="@drawable/facebooklogo"/>-->
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_below="@id/buttonregister1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doesn't have an account? "
+            android:textSize="15sp"
+            android:textColor="#131313"
+            android:fontFamily="@font/poppinsmedium"/>
+
+        <TextView
+            android:id="@+id/logintext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Log In"
+            android:textColor="#6B5048"
+            android:fontFamily="@font/poppinsmedium"/>
+    </LinearLayout>
+
+</RelativeLayout>

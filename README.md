@@ -19,3 +19,9 @@ host      = localhost
 username  = id21585171_dimas
 password  = Qwe123!!
 db        = id21585171_coba
+
+terdapat 3 branch
+
+main = kosong
+api = khusus api mobile (uji coba)
+uji coba = untuk mobile app

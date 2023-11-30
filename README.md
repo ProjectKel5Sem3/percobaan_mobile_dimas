@@ -32,8 +32,7 @@ Dengan mail vioscake1@gmail.com
   - https://files.000webhost.com/
 - dengan
   - username = vioscakedb
-  - password =
-    passwordnya aku dak tau
+  - password = Vioscake123!
 - dan database melalui
   - https://databases.000webhost.com/
 - dengan

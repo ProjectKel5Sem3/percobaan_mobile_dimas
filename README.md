@@ -6,24 +6,6 @@ hanya berisi API yang dipakai sekarang dengan data basenya
 
 pada project dapat dilihat di Db_Contract
 
-Dengan mail utama ku :
-- jika ingin bermain, login melalui
-  - https://files.000webhost.com/
-- dengan
-  - username = ujiproject1
-  - password = cobaaA!002
-- dan database melalui
-  - https://databases.000webhost.com/
-- dengan
-  - host      = localhost
-  - username  = id21585171_dimas
-  - password  = Qwe123!!
-  - db        = id21585171_coba
-- API yang bias dipakai
-  - koneksi   = https://ujiproject1.000webhostapp.com/apidb/koneksi.php
-  - login     = https://ujiproject1.000webhostapp.com/apidb/api_login.php
-  - register  = https://ujiproject1.000webhostapp.com/apidb/api_register.php
-
 domain uji coba
 https://vioscakedb.000webhostapp.com
 saat ini hanya berisi API yang dipakai sekarang dengan data basenya
